@@ -20,7 +20,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className="bg-bgPrimary">
+      <div className="bg-bgPrimary ">
         <DashBoardOne />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-[1100px] ms-10 mt-10 bg-[#fff]">

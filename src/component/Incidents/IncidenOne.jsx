@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const IncidenOne = () => {
   return (
@@ -20,7 +20,7 @@ const IncidenOne = () => {
             className="py-2 px-2 rounded text-[12px]"
           />
           <button className="bg-btnPrimary text-btnColor text-[12px] px-4 py-3 rounded font-bold">
-            + New Incident
+            <Link to="/getstart">+ New Incident</Link>
           </button>
         </div>
       </div>

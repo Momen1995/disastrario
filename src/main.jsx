@@ -6,6 +6,8 @@ import Root from "./component/Root/Root";
 import ErrorPage from "./component/ErrorPage/ErrorPage";
 import Dashboard from "./component/Dashboard/Dashboard";
 import Incidents from "./component/Incidents/Incidents";
+import GetStart from "./component/Incidents/GetStart";
+import NewIncident from "./component/Incidents/NewIncident";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
       {
         path: "/incident",
         element: <Incidents />,
+      },
+      {
+        path: "/getstart",
+        element: <GetStart />,
+      },
+      {
+        path: "/newincident",
+        element: <NewIncident />,
       },
     ],
   },

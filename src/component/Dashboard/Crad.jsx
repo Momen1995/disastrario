@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-import { IoRainySharp } from "react-icons/io5";
+//import { IoRainySharp } from "react-icons/io5";
 const Crad = ({ data }) => {
   const { image, title, price, area } = data;
   return (

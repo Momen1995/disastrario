@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "iconImage": "icon1.png",
+    "iconName": "Avalanche"
+  },
+  {
+    "id": 2,
+    "iconImage": "icon2.png",
+    "iconName": "Biological"
+  },
+  {
+    "id": 3,
+    "iconImage": "icon3.png",
+    "iconName": "Blizzard"
+  },
+  {
+    "id": 4,
+    "iconImage": "icon4.png",
+    "iconName": "Cold/Freezing"
+  },
+  {
+    "id": 5,
+    "iconImage": "icon5.png",
+    "iconName": "Drought"
+  },
+  {
+    "id": 6,
+    "iconImage": "icon6.png",
+    "iconName": "Earthquake"
+  },
+  {
+    "id": 7,
+    "iconImage": "icon7.png",
+    "iconName": "Flooding"
+  },
+  {
+    "id": 8,
+    "iconImage": "icon8.png",
+    "iconName": "Heat Wave"
+  },
+  {
+    "id": 9,
+    "iconImage": "icon9.png",
+    "iconName": "Hail"
+  },
+  {
+    "id": 10,
+    "iconImage": "icon10.png",
+    "iconName": "Lightning"
+  },
+  {
+    "id": 11,
+    "iconImage": "icon11.png",
+    "iconName": "Man Made"
+  },
+  {
+    "id": 12,
+    "iconImage": "icon12.png",
+    "iconName": "Mudslide"
+  },
+  {
+    "id": 13,
+    "iconImage": "icon13.png",
+    "iconName": "Severe Storm"
+  },
+  {
+    "id": 14,
+    "iconImage": "icon14.png",
+    "iconName": "Strong Wind"
+  },
+  {
+    "id": 15,
+    "iconImage": "icon15.png",
+    "iconName": "Tornado"
+  },
+  {
+    "id": 16,
+    "iconImage": "icon16.png",
+    "iconName": "Tsunami"
+  },
+  {
+    "id": 17,
+    "iconImage": "icon17.png",
+    "iconName": "Volcanic Eruption"
+  },
+  {
+    "id": 18,
+    "iconImage": "icon18.png",
+    "iconName": "Volcanic Eruption"
+  }
+]

@@ -11,6 +11,7 @@ export default {
       backgroundColor: {
         btnPrimary: "#F26922",
         bgPrimary: "#f1f1f3",
+        cardPrimary: "#E4E4E7",
       },
       fontFamily: {
         "onset-font": ["Onest", "sans-serif"],
