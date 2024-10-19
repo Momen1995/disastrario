@@ -10,6 +10,7 @@ export default {
       },
       backgroundColor: {
         btnPrimary: "#F26922",
+        bgPrimary: "#f1f1f3",
       },
       fontFamily: {
         "onset-font": ["Onest", "sans-serif"],

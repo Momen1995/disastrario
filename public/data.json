@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/6mJpSb0/card-1.png",
+    "title": "Whitechapel Rd.",
+    "price": "1,456,654.00,",
+    "area": "Tulare County, Los Angles, CA 23415"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/kDFBTGT/card-two.png",
+    "title": "Whitechapel Rd.",
+    "price": "$1,456,654.00",
+    "area": "Tulare County, Los Angles, CA 23415"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/BjXgyh0/card-3.png",
+    "title": "Tulare County",
+    "price": "$1,456,654.00",
+    "area": "Tulare County, Los Angles, CA 23415"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/dpRzgnF/Rectangle-42010-1.png",
+    "title": "Spacious Villa",
+    "price": "$1,456,654.00",
+    "area": "2000 sqft"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/8xJ2Gth/card-4.png",
+    "title": "Urban Loft",
+    "price": "950000",
+    "area": "750 sqft"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/dDvMTFD/card-5.png",
+    "title": "Beachfront Condo",
+    "price": "18,000,00",
+    "area": "1400 sqft"
+  }
+]

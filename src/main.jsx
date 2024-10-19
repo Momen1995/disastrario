@@ -5,6 +5,7 @@ import "./index.css";
 import Root from "./component/Root/Root";
 import ErrorPage from "./component/ErrorPage/ErrorPage";
 import Dashboard from "./component/Dashboard/Dashboard";
+import Incidents from "./component/Incidents/Incidents";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Dashboard />,
+      },
+      {
+        path: "/incident",
+        element: <Incidents />,
       },
     ],
   },

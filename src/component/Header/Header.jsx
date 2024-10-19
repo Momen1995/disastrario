@@ -3,10 +3,9 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="bg-[#f1f1f3]">
+    <div className="bg-bgPrimary font-onset-font">
       <Navbar />
       <hr />
-      <DashBoardOne />
     </div>
   );
 };
