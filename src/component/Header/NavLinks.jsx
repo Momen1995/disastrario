@@ -8,7 +8,7 @@ const NavLinks = () => {
           Dashboard
         </NavLink>
         <NavLink to="/incident">Incident</NavLink>
-        <NavLink to="/location">Location</NavLink>
+        <NavLink to="/locations">Location</NavLink>
         <NavLink to="/activities">Activities</NavLink>
         <NavLink to="/document">Document</NavLink>
         <NavLink to="/cyphers">Cyphers AI</NavLink>

@@ -9,6 +9,9 @@ import Incidents from "./component/Incidents/Incidents";
 import GetStart from "./component/Incidents/GetStart";
 import NewIncident from "./component/Incidents/NewIncident";
 import IncidentTile from "./component/IncidentTitle/IncidentTile";
+// import IncidentWhere from "./component/IncidentWhere/IncidentWhere";
+
+import Locations from "./component/Location/Locations";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/incidenttitle",
         element: <IncidentTile />,
+      },
+      {
+        path: "/locations",
+        element: <Locations />,
       },
     ],
   },

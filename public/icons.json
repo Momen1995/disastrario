@@ -1,92 +1,92 @@
 [
   {
     "id": 1,
-    "iconImage": "icon1.png",
+    "iconImage": "https://i.ibb.co.com/85p1cnz/fi-67855.png",
     "iconName": "Avalanche"
   },
   {
     "id": 2,
-    "iconImage": "icon2.png",
+    "iconImage": "https://i.ibb.co.com/gJ58Vcq/fi-8931510.png",
     "iconName": "Biological"
   },
   {
     "id": 3,
-    "iconImage": "icon3.png",
+    "iconImage": "https://i.ibb.co.com/gJ58Vcq/fi-8931510.png",
     "iconName": "Blizzard"
   },
   {
     "id": 4,
-    "iconImage": "icon4.png",
+    "iconImage": "https://i.ibb.co.com/yNP5hq1/fi-2529995.png",
     "iconName": "Cold/Freezing"
   },
   {
     "id": 5,
-    "iconImage": "icon5.png",
+    "iconImage": "https://i.ibb.co.com/Zzxmbkv/fi-533057.png",
     "iconName": "Drought"
   },
   {
     "id": 6,
-    "iconImage": "icon6.png",
+    "iconImage": "https://i.ibb.co.com/ZLJbQ8N/fi-1818265.png",
     "iconName": "Earthquake"
   },
   {
     "id": 7,
-    "iconImage": "icon7.png",
+    "iconImage": "https://i.ibb.co.com/4Pf9rqx/fi-106063.png",
     "iconName": "Flooding"
   },
   {
     "id": 8,
-    "iconImage": "icon8.png",
+    "iconImage": "https://i.ibb.co.com/BNQZmDw/fi-66275.png",
     "iconName": "Heat Wave"
   },
   {
     "id": 9,
-    "iconImage": "icon9.png",
+    "iconImage": "https://i.ibb.co.com/Zzb1h35/fi-6157591.png",
     "iconName": "Hail"
   },
   {
     "id": 10,
-    "iconImage": "icon10.png",
+    "iconImage": "https://i.ibb.co.com/41nb15H/fi-9502782.png",
     "iconName": "Lightning"
   },
   {
     "id": 11,
-    "iconImage": "icon11.png",
+    "iconImage": "https://i.ibb.co.com/jz6W2q8/fi-2165881.png",
     "iconName": "Man Made"
   },
   {
     "id": 12,
-    "iconImage": "icon12.png",
+    "iconImage": "https://i.ibb.co.com/phXqpLq/fi-3236885.png",
     "iconName": "Mudslide"
   },
   {
     "id": 13,
-    "iconImage": "icon13.png",
+    "iconImage": "https://i.ibb.co.com/Kbg9jGB/fi-15330449.png",
     "iconName": "Severe Storm"
   },
   {
     "id": 14,
-    "iconImage": "icon14.png",
+    "iconImage": "https://i.ibb.co.com/Kbg9jGB/fi-15330449.png",
     "iconName": "Strong Wind"
   },
   {
     "id": 15,
-    "iconImage": "icon15.png",
+    "iconImage": "https://i.ibb.co.com/ChNVFNK/fi-3682921.png",
     "iconName": "Tornado"
   },
   {
     "id": 16,
-    "iconImage": "icon16.png",
+    "iconImage": "https://i.ibb.co.com/BNQZmDw/fi-66275.png",
     "iconName": "Tsunami"
   },
   {
     "id": 17,
-    "iconImage": "icon17.png",
+    "iconImage": "https://i.ibb.co.com/yNP5hq1/fi-2529995.png",
     "iconName": "Volcanic Eruption"
   },
   {
     "id": 18,
-    "iconImage": "icon18.png",
+    "iconImage": "https://i.ibb.co.com/41nb15H/fi-9502782.png",
     "iconName": "Volcanic Eruption"
   }
 ]
