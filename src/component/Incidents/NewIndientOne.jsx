@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
+import IncidentImg from "../../assets/images/incident.png";
 
 const NewIndientOne = () => {
   return (
@@ -18,12 +19,13 @@ const NewIndientOne = () => {
             </h3>
           </div>
         </div>
+        <img src={IncidentImg} alt="" />
         <div className="flex gap-6">
           <button className="bg-white text-secondary text-[12px] px-10 py-3 rounded font-bold">
             <Link to="/getstart">Back</Link>
           </button>
           <button className="bg-btnPrimary text-btnColor text-[12px] px-8 py-3 rounded font-bold">
-            <Link to="/getstart">Next step</Link>
+            <Link to="/incidenttitle">Next step</Link>
           </button>
         </div>
       </div>

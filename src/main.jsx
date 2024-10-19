@@ -8,6 +8,7 @@ import Dashboard from "./component/Dashboard/Dashboard";
 import Incidents from "./component/Incidents/Incidents";
 import GetStart from "./component/Incidents/GetStart";
 import NewIncident from "./component/Incidents/NewIncident";
+import IncidentTile from "./component/IncidentTitle/IncidentTile";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/newincident",
         element: <NewIncident />,
+      },
+      {
+        path: "/incidenttitle",
+        element: <IncidentTile />,
       },
     ],
   },
