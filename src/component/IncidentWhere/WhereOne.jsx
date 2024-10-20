@@ -11,7 +11,8 @@ const WhereOne = () => {
   return (
     <>
       <div className="md:px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1270px] py-4 mx-0 md:mx-auto font-onset-font">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full max-w-[1270px] py-4 mx-3 md:mx-auto font-onset-font">
+          {/* Incident Title Section */}
           <div className="flex flex-col md:flex-row items-center gap-4 w-full">
             <div className="bg-[#fff] px-2 py-2 rounded-full text-[18px]">
               <IoMdClose />
@@ -26,7 +27,8 @@ const WhereOne = () => {
             </div>
           </div>
 
-          <div className="my-4 md:my-0">
+          {/* Incident Image */}
+          <div className="my-4 md:my-0 w-full md:w-auto flex justify-center md:justify-end">
             <img
               src={IncidentImg}
               alt="Incident"
@@ -34,14 +36,15 @@ const WhereOne = () => {
             />
           </div>
 
-          <div className="flex flex-col md:flex-row gap-4 md:gap-6 mt-4 md:mt-0">
+          {/* Action Buttons */}
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6 mt-4 md:mt-0 w-full">
             <button
               onClick={handleNaviGate}
-              className="bg-white text-secondary text-[12px] px-5 py-2 sm:px-10 sm:py-3 rounded font-bold"
+              className="bg-white text-secondary text-[12px] px-5 py-2 sm:px-10 sm:py-3 rounded font-bold w-full md:w-auto"
             >
               Back
             </button>
-            <button className="bg-btnPrimary text-btnColor text-[12px] px-5 py-2 sm:px-8 sm:py-3 rounded font-bold">
+            <button className="bg-btnPrimary text-btnColor text-[12px] px-5 py-2 sm:px-8 sm:py-3 rounded font-bold w-full md:w-auto">
               <Link to="/locations">Next step</Link>
             </button>
           </div>

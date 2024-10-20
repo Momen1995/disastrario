@@ -11,7 +11,7 @@ const IncidentTitleOne = () => {
   return (
     <>
       <div>
-        <div className="flex flex-col md:flex-row justify-between items-center w-full md:w-[1270px] py-4 mx-auto font-onset-font px-4 md:px-0">
+        <div className="flex flex-col md:flex-row justify-between items-center w-full md:w-[1270px] py-4 mx-auto font-onset-font px-4 md:px-0 gap-4">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-2">
             <div className="bg-[#fff] px-2 py-2 rounded-full text-[18px]">
               <IoMdClose />
@@ -29,8 +29,8 @@ const IncidentTitleOne = () => {
           <div className="my-4 md:my-0">
             <img
               src={IncidentImg}
-              alt=""
-              className="w-[150px] sm:w-[200px] md:w-auto" // Adjust image size
+              alt="Incident"
+              className="w-[150px] sm:w-[200px] md:w-auto object-contain" // Image
             />
           </div>
 

@@ -25,15 +25,15 @@ const GetStart = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center h-[80vh] mt-5 items-center w-4/5 mx-auto">
-      <h1 className="text-primary font-bold text-[32px]">Let’s get started</h1>
-      <p className="text-center w-1/2 text-secondary text-[16px] mt-2 mb-5">
+    <div className="flex flex-col justify-center md:h-[80vh] mt-5 items-center w-4/5 mx-auto">
+      <h1 className="text-primary font-bold md:text-[32px] text-[26px]">Let’s get started</h1>
+      <p className="text-center w-full md:w-1/2 text-secondary text-sm md:text-[16px] mt-2 mb-5">
         Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit
         general sac mascho werhoLorem ipsum dolar sit gene
       </p>
       <img src={GetImage} alt="" className="mb-6" />
 
-      <div className="grid grid-cols-3 gap-5 w-9/12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:w-9/12 w-11/12">
         {data.map((data) => (
           <GetCard key={data.id} data={data} />
         ))}

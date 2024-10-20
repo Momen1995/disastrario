@@ -8,13 +8,7 @@ const Card = ({ data }) => {
         <p className="text-[14px] text-secondary">{area}</p>
         <p className="font-bold text-[16px] text-primary">{price}</p>
       </div>
-      {/* Uncomment if you want to add a button or additional functionality
-      <div>
-        <button className="flex items-center justify-center">
-          <IoRainySharp />
-          Bizzard
-        </button>
-      </div> */}
+      
     </div>
   );
 };
