@@ -1,8 +1,12 @@
 import { NavLink } from "react-router-dom";
 
-const NavLinks = () => {
+const NavLinks = ({ isMobile }) => {
   return (
-    <div className="flex gap-4 text-secondary text-sm font-normal">
+    <div
+      className={`flex w-full ${
+        isMobile ? "flex-col items-start pl-4" : "flex-row"
+      } gap-4 text-secondary text-sm font-normal`}
+    >
       <NavLink
         to="/"
         className={({ isActive }) =>
