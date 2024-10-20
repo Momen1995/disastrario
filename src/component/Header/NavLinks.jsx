@@ -14,7 +14,7 @@ const NavLinks = () => {
       <NavLink
         to="/incident"
         className={({ isActive }) =>
-          `text-secondary ${isActive ? "font-bold underline" : ""}`
+          `text-secondary ${isActive ? "font-bold underline text-primary" : ""}`
         }
       >
         Incident
