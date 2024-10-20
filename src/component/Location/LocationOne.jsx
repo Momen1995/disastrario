@@ -8,7 +8,7 @@ const LocationOne = () => {
           <p className="text-secondary text-[12px]">
             Incidents - DR-4699 March 2023 Severe Storms{" "}
           </p>
-          <h3 className="text-primary font-bold text-[26px]">
+          <h3 className="text-primary font-bold text-[18px] md:text-[26px]">
             DR-4699 March 2023 Severe Storms
           </h3>
         </div>
