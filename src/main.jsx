@@ -12,6 +12,7 @@ import IncidentTile from "./component/IncidentTitle/IncidentTile";
 // import IncidentWhere from "./component/IncidentWhere/IncidentWhere";
 
 import Locations from "./component/Location/Locations";
+import IncidentWhere from "./component/IncidentWhere/IncidentWhere";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/incidenttitle",
         element: <IncidentTile />,
+      },
+      {
+        path: "/incidentwhere",
+        element: <IncidentWhere />,
       },
       {
         path: "/locations",

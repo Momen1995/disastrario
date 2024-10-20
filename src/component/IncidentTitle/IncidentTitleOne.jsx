@@ -2,7 +2,7 @@ import { IoMdClose } from "react-icons/io";
 import IncidentImg from "../../assets/images/incident.png";
 import { Link } from "react-router-dom";
 
-const WhereOne = () => {
+const IncidentTitleOne = () => {
   return (
     <>
       <div>
@@ -26,7 +26,7 @@ const WhereOne = () => {
               <Link to="/getstart">Back</Link>
             </button>
             <button className="bg-btnPrimary text-btnColor text-[12px] px-8 py-3 rounded font-bold">
-              <Link to="/locations">Next step</Link>
+              <Link to="/incidentwhere">Next step</Link>
             </button>
           </div>
         </div>
@@ -35,4 +35,4 @@ const WhereOne = () => {
   );
 };
 
-export default WhereOne;
+export default IncidentTitleOne;
