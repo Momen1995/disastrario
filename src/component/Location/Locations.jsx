@@ -10,8 +10,9 @@ const Locations = () => {
           <LocationOne />
         </div>
         <div className="w-11/12 mx-auto mt-8 flex flex-col md:flex-row justify-between ">
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <LocationLeft />
+    
           </div>
           <div>
             <LocationRight />

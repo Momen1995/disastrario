@@ -1,5 +1,8 @@
 import location from "../../assets/images/locations.png";
 import Camera from "../../assets/images/camera.png";
+import LocationCard from "./LocationCard";
+import LocationDetail from "./LocationDetail";
+import LocationdetailTwo from "./LocationdetailTwo";
 
 const LocationLeft = () => {
   return (
@@ -32,6 +35,9 @@ const LocationLeft = () => {
         </p>
       </div>
       <hr />
+      <LocationCard/><hr/>
+      <LocationDetail/><hr />
+      <LocationdetailTwo/>
     </div>
   );
 };
