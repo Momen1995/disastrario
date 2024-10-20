@@ -12,7 +12,6 @@ const WhereOne = () => {
     <>
       <div className="md:px-4">
         <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1270px] py-4 mx-0 md:mx-auto font-onset-font">
-          {/* Close Icon and Title Section */}
           <div className="flex flex-col md:flex-row items-center gap-4 w-full">
             <div className="bg-[#fff] px-2 py-2 rounded-full text-[18px]">
               <IoMdClose />
@@ -27,16 +26,14 @@ const WhereOne = () => {
             </div>
           </div>
 
-          {/* Image */}
           <div className="my-4 md:my-0">
             <img
               src={IncidentImg}
               alt="Incident"
-              className="w-[100px] sm:w-[150px] md:w-auto" // Adjust image size
+              className="w-[100px] sm:w-[150px] md:w-auto"
             />
           </div>
 
-          {/* Buttons Section */}
           <div className="flex flex-col md:flex-row gap-4 md:gap-6 mt-4 md:mt-0">
             <button
               onClick={handleNaviGate}

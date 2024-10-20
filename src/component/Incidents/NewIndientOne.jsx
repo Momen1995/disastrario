@@ -8,6 +8,7 @@ const NewIndientOne = () => {
   const handleNaviGate = () => {
     navigate(-1);
   };
+
   return (
     <div>
       <div className="flex justify-between items-center w-[1270px] py-4 mx-auto font-onset-font ">

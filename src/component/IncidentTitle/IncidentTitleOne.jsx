@@ -12,7 +12,6 @@ const IncidentTitleOne = () => {
     <>
       <div>
         <div className="flex flex-col md:flex-row justify-between items-center w-full md:w-[1270px] py-4 mx-auto font-onset-font px-4 md:px-0">
-          {/* Close Icon and Title Section */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-2">
             <div className="bg-[#fff] px-2 py-2 rounded-full text-[18px]">
               <IoMdClose />
@@ -27,16 +26,14 @@ const IncidentTitleOne = () => {
             </div>
           </div>
 
-          {/* Image */}
           <div className="my-4 md:my-0">
             <img
               src={IncidentImg}
               alt=""
-              className="w-[150px] sm:w-[200px] md:w-auto" // Adjust image size for smaller screens
+              className="w-[150px] sm:w-[200px] md:w-auto" // Adjust image size
             />
           </div>
 
-          {/* Buttons */}
           <div className="flex flex-col md:flex-row gap-4 md:gap-6 mt-4 md:mt-0">
             <button
               onClick={handleNaviGate}

@@ -10,10 +10,8 @@ import GetStart from "./component/Incidents/GetStart";
 import NewIncident from "./component/Incidents/NewIncident";
 import IncidentTile from "./component/IncidentTitle/IncidentTile";
 // import IncidentWhere from "./component/IncidentWhere/IncidentWhere";
-
 import Locations from "./component/Location/Locations";
 import IncidentWhere from "./component/IncidentWhere/IncidentWhere";
-import Activities from "./component/Activities/Activities";
 
 const router = createBrowserRouter([
   {

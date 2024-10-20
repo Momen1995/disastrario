@@ -22,14 +22,14 @@ const Incidents = () => {
       <div className="bg-bgPrimary ">
         <IncidenOne />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-[1100px] ms-10 mt-10 bg-[#fff]">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 w-[1100px] ms-10 mt-10 bg-[#fff]">
         {data.map((data) => (
           <Card key={data.id} data={data} />
         ))}
       </div>
 
-      <div className="flex flex-col mt-10">
-        <div className="flex justify-end w-[1200px] mx-auto">
+      <div className="flex flex-col mt-5 w-3/4 mx-auto z-10 h-72">
+        <div className="flex justify-end w-full max-w-7xl mx-auto">
           {isShowModal && (
             <div className="flex flex-col w-full max-w-sm h-96 border rounded-lg shadow-lg mr-5">
               <div className="p-4 bg-btnPrimary text-white font-bold text-center rounded-t-lg">
@@ -94,7 +94,7 @@ const Incidents = () => {
           )}
         </div>
 
-        <div className="flex justify-end w-[1200px] mx-auto mt-5 fixed">
+        <div className="flex justify-end w-3/4 max-w-6xl mx-auto mt-5 fixed right-0 bottom-0">
           <button
             onClick={handleShowModal}
             className="bg-btnPrimary rounded-full px-5 py-4 text-[#fff] font-bold text-4xl font-onset-font"
