@@ -27,7 +27,7 @@ const LocationOne = () => {
             className="py-2 px-2 rounded text-[12px] w-full md:w-auto"
           />
           <button className="bg-btnPrimary text-btnColor text-[12px] px-4 py-3 rounded font-bold w-full md:w-auto">
-            <Link to="/getstart">+ New Location</Link>
+            <Link to="/">+ New Location</Link>
           </button>
         </div>
       </div>

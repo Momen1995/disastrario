@@ -22,13 +22,13 @@ const Incidents = () => {
       <div className="bg-bgPrimary ">
         <IncidenOne />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 w-[1100px] ms-10 mt-10 bg-[#fff]">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 md:w-[1100px] md:ms-10 mt-10 bg-[#fff] px-2 w-full ">
         {data.map((data) => (
           <Card key={data.id} data={data} />
         ))}
       </div>
 
-      <div className="flex flex-col mt-5 w-3/4 mx-auto z-10 h-72">
+      <div className="flex flex-col mt-0 w-full mx-auto z-10 pb-10">
         <div className="flex justify-end w-full max-w-7xl mx-auto">
           {isShowModal && (
             <div className="flex flex-col w-full max-w-sm h-96 border rounded-lg shadow-lg mr-5">
@@ -83,10 +83,10 @@ const Incidents = () => {
                 <input
                   type="text"
                   placeholder="Type a message..."
-                  className="flex-1 p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="flex-1 p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm md:text-base"
                 />
 
-                <button className="bg-btnPrimary text-white px-4 py-2 rounded-full">
+                <button className="bg-btnPrimary text-white px-4 py-2 rounded-full text-sm md:text-base">
                   Send
                 </button>
               </div>
@@ -94,10 +94,10 @@ const Incidents = () => {
           )}
         </div>
 
-        <div className="flex justify-end w-3/4 max-w-6xl mx-auto mt-5 fixed right-0 bottom-0">
+        <div className="flex justify-end w-3/4 max-w-6xl mx-auto mt-5">
           <button
             onClick={handleShowModal}
-            className="bg-btnPrimary rounded-full px-5 py-4 text-[#fff] font-bold text-4xl font-onset-font"
+            className="bg-btnPrimary rounded-full px-5 py-5 text-[#fff] font-bold text-3xl md:text-4xl font-onset-font"
           >
             {isShowModal ? <IoMdClose /> : <TbLetterC />}
           </button>
