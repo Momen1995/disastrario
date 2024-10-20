@@ -5,6 +5,7 @@ const Locations = () => {
     <div>
       <div>
         <LocationOne />
+        <p>hello location</p>
       </div>
     </div>
   );

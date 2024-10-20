@@ -13,6 +13,7 @@ import IncidentTile from "./component/IncidentTitle/IncidentTile";
 
 import Locations from "./component/Location/Locations";
 import IncidentWhere from "./component/IncidentWhere/IncidentWhere";
+import Activities from "./component/Activities/Activities";
 
 const router = createBrowserRouter([
   {
